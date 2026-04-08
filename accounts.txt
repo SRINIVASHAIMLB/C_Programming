@@ -1,2 +1,5 @@
-AccNo FirstName      LastName       Balance   
-1     Sri            Nivash         5000.00   
+  Acct       Last Name First Name    Balance
+     1             sri                  0.00
+     2           pandi      ragul    1000.00
+     3           kumar   pratheep    2000.00
+     4          sanjay      pandi    5000.00
