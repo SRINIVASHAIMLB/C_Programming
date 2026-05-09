@@ -150,12 +150,10 @@ void new_account(FILE *fp)
 
     printf("Enter FirstName: ");
     scanf("%s",client.first_name);
-    printf("Enter FirstName: LastName Balance: ");
-    printf("Enter FirstName: LastName Balance: ");
-    scanf("%s %s %lf",
-          client.first_name,
-          client.last_name,
-          &client.balance);
+    printf("Enter LastName:");
+    scanf("%s",client.last_name);
+    printf("Enter Balance: ");
+    scanf("%lf",&client.balance);
 
     printf("Set password: ");
     scanf("%s", client.password);
